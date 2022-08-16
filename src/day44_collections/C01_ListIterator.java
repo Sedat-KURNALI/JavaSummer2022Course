@@ -22,7 +22,7 @@ public class C01_ListIterator {
         liste.add(40);
         System.out.println(liste); // [2, 13, 56, 23, 45, 14, 40]
         ListIterator li1 = liste.listIterator();
-        int basSinir = 30;
+        int basSinir = 20;
         int bitSinir = 40;
         while (li1.hasNext()) {
             Integer temp = (Integer) li1.next();
